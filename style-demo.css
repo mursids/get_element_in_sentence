@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #002f76;
+    font-family: Trebuchet MS,Arial,Verdana;
+    font-size: 13px;
+    line-height: 15px;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #0072ff;
+    text-decoration: none;
+}
+a:hover {
+    color: #01700c;
+    text-decoration: none;
+}
+#bodyfull {
+    width: 100%;
+}
+#bodyfull2 {
+    float: left;
+    width: 100%;
+}
+#center {
+    margin: 0 auto;
+    width: 980px;
+}
+.form_box {
+    background-color: #fdfdfd;
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(50, 50, 50, 0.1);
+    clear: both;
+    display: block;
+    margin: 20px auto;
+    padding: 25px;
+    width: 550px;
+}
+.form_box label {
+    clear: both;
+    color: #333;
+    display: inline-block;
+    float: left;
+    font-family: TitilliumText22LBold,ArtifikaMedium,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 1em;
+    margin: 5px 0;
+    padding: 12px 0 0;
+    width: 145px;
+}
+.form_box input[type="text"], input[type="password"], input[type="email"], input[type="tel"], .form_box textarea, .form_box select {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+    color: #666666;
+    font-family: TitilliumText22LBold,ArtifikaMedium,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    margin: 8px 0;
+    padding: 8px;
+    vertical-align: top;
+    width: 350px;
+}
+.form_box input[type="radio"] {
+    margin: 8px 0;
+    padding: 8px;
+    vertical-align: top;
+    width: 30px;
+}
+.form_box input.submit {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center bottom , #0391fe 12%, #4ea0ee 100%) repeat scroll 0 0;
+    border: 1px solid #0080e5;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 6px 16px;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+    width: auto;
+}
+.form_box input.submit:hover {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center bottom , #4ea0ee 12%, #0391fe 100%) repeat scroll 0 0;
+    color: #d7e3ee;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);
+}
+.otherinputs {
+    color: #333;
+    font-family: TitilliumText22LBold,ArtifikaMedium,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    margin: 8px 0;
+    width: 350px;
+}
+.otherinputs span {
+    line-height: 30px;
+    margin: 0 20px 0 0;
+}
+.refresh {
+    cursor: pointer;
+    float: left;
+    margin: 14px 5px;
+}
